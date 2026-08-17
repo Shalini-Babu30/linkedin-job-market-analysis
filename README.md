@@ -168,24 +168,7 @@ The list includes both large enterprises and staffing/recruiting platforms, high
 - Regular expressions / keyword matching
 - GitHub
 
-## Run It Yourself
 
-Download the LinkedIn Job Postings dataset from Kaggle and place `postings.csv` in the project root.
-
-Install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-
-Run the analysis:
-python linkedin_job_analysis.py
-## The script generates:
-1.A cleaned dataset
-2.An analysis-ready dataset
-3.Job market analysis results
-4.Data Analyst-specific analysis
-5.Salary analysis
-6.Seven visualization files inside /visualizations
 
 
 ### Conclusion
