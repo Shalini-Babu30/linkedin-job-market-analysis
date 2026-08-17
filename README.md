@@ -168,20 +168,4 @@ The list includes both large enterprises and staffing/recruiting platforms, high
 - Regular expressions / keyword matching
 - GitHub
 
-## Project Structure
 
-```text
-linkedin-job-market-analysis/
-│
-├── linkedin_job_analysis.py
-├── README.md
-├── requirements.txt
-│
-└── visualizations/
-    ├── data_ai_job_demand.png
-    ├── data_ai_salary_comparison.png
-    ├── data_analyst_salary_by_experience.png
-    ├── data_analyst_skills.png
-    ├── job_demand_by_category.png
-    ├── remote_work_comparison.png
-    └── top_job_locations.png
