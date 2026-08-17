@@ -168,4 +168,34 @@ The list includes both large enterprises and staffing/recruiting platforms, high
 - Regular expressions / keyword matching
 - GitHub
 
+## Run It Yourself
+
+Download the LinkedIn Job Postings dataset from Kaggle and place `postings.csv` in the project root.
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+
+Run the analysis:
+python linkedin_job_analysis.py
+## The script generates:
+1.A cleaned dataset
+2.An analysis-ready dataset
+3.Job market analysis results
+4.Data Analyst-specific analysis
+5.Salary analysis
+6.Seven visualization files inside /visualizations
+
+
+### Conclusion
+
+The analysis shows that breaking into Data Analytics is not simply about learning as many technologies as possible.
+
+For the Data Analyst postings analyzed here, Excel and SQL were substantially more frequently requested than Python, Power BI, or Tableau. Data Analyst roles also showed a higher explicit remote-work share than the overall job market.
+
+At the same time, the salary analysis shows a clear difference between Data Analyst roles and adjacent Data & AI roles, with AI/ML, Data Science, and Data Engineering postings showing higher median salaries in the available salary sample.
+
+The main takeaway is simple: prioritize the skills employers actually request, validate career advice against real job-market data, and use data rather than assumptions to guide your learning strategy.
+
 
